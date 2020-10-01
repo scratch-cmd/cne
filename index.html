@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--html4有很多种DOCTYPE协议，而html5却只有一种DOCTYPE协议：<DOCTYPE html>-->
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>china系列歌曲</title>
+    <!--<title>...<title>是标题（跟<hl>...</hl>有所不同）-->
+</head>
+<body background="background.jpg">
+<!--background="xxxxx.jpg"是背景标签-->
+<audio src="china-e.mp3" controls="controls">
+</audio>
+<!--<audio src="xxx.mp3" controls="controls"></audio>是音频标签-->
+<b>===china-e===</b>
+<!--<b>...</b>标签可以加粗内容-->
+<button onclick="openUrl();">See page</button>
+<script type="text/javascript">
+    function openUrl() {
+        var url = 'http://www.kuwo.cn/down/single/52767854';
+        window.open(url); //新窗口打开音频原始位置
+    }
+</script>
+<!--这是一个打开窗口的按钮-->
+<p>
+=================================================================================================================
+</p>
+<audio src="china-x.mp3" controls="contols">
+</audio>
+<!--<audio src="xxx.mp3" controls="controls"></audio>是音频标签-->
+<b>===china-x===</b>
+<!--<b>...</b>标签可以加粗内容-->
+</body>
+</html>
